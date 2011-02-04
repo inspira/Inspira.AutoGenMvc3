@@ -1,0 +1,7 @@
+﻿@model System.Decimal
+
+<p>
+    <div>@Html.LabelFor(m => m)</div>
+    <div>R$ @Html.TextBox("", String.Format("{0:F02}", Model), new { @class = "money" })</div>    
+    <div>@Html.ValidationMessageFor(m => m)</div>
+</p>

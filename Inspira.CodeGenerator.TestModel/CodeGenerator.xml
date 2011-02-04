@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<entities>
+    <entity Name="MyArtificialEntity">
+        <properties>
+            <property Name="MyClearText" PropertyTemplate="ClearText" />
+            <property Name="MyHtmlText" PropertyTemplate="HtmlText" MaxLength="4000" />
+            <property Name="MyEnumChar" PropertyTemplate="EnumChar" EnumCaptions="Azul,Bege,Cinza" />
+            <property Name="MyByte" />
+            <property Name="MyInt16" />
+            <property Name="MyInt32" />
+            <property Name="MyInt64" />
+            <property Name="MySingle" />
+            <property Name="MyDouble" />
+            <property Name="MyDecimal" />
+            <property Name="MyMoney" />
+            <property Name="MyBoolean" />
+            <property Name="MyDateTime" />
+            <property Name="MyDate" />
+            <property Name="MyTime" />
+        </properties>
+    </entity>
+    <entity Name="MyRealEntity">
+        <properties>
+            <property Name="Cep" PropertyTemplate="StringCep" />
+            <property Name="Cpf" PropertyTemplate="StringCpf" />
+            <property Name="Cnpj" PropertyTemplate="StringCnpj" />
+            <property Name="Telefone" PropertyTemplate="StringTelefone" />
+        </properties>
+    </entity>
+</entities>

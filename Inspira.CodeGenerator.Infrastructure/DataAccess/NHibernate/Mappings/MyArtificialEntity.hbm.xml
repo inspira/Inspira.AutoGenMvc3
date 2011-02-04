@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+    <class name="Inspira.CodeGenerator.TestModel.MyArtificialEntity, Inspira.CodeGenerator.TestModel">
+         <id name="ID" type="System.Guid" column="ID">
+            <generator class="guid.comb" />
+        </id>
+
+        <property name="MyString" />
+        <property name="MyClearText" />
+        <property name="MyHtmlText" />
+        <property name="MyChar" />
+        <property name="MyByte" />
+        <property name="MyInt16" />
+        <property name="MyInt32" />
+        <property name="MyInt64" />
+        <property name="MySingle" />
+        <property name="MyDouble" />
+        <property name="MyDecimal" />
+        <property name="MyMoney" />
+        <property name="MyBoolean" />
+        <property name="MyDateTime" />
+        <property name="MyDate" />
+        <property name="MyTime" />
+    </class>
+</hibernate-mapping>

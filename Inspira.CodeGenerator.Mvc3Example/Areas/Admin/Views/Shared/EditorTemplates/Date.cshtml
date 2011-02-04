@@ -1,0 +1,7 @@
+﻿@model System.DateTime
+
+<p>
+    <div>@Html.LabelFor(m => m)</div>
+    <div>@Html.TextBox("", Model.ToShortDateString(), new { @class="date" })</div>
+    <div>@Html.ValidationMessageFor(m => m)</div>
+</p>

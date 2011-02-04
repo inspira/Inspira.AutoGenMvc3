@@ -1,0 +1,14 @@
+﻿@model System.Object
+
+        @{Html.EnableClientValidation();}
+        @{Html.EnableUnobtrusiveJavaScript();}
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <fieldset>
+            <legend>MyRealEntity</legend>
+
+            @foreach (System.Reflection.PropertyInfo propertyInfo in Model.GetType().GetProperties()) {
+                @Html.Editor(propertyInfo.Name)
+            }
+            <button>Save</button>
+        </fieldset>

@@ -1,0 +1,7 @@
+﻿@model Inspira.CodeGenerator.Core.CustomTypes.File
+
+<p>
+    <div>@Html.Label("")</div>
+    <div><input type="file" name='@String.Concat(ViewData.TemplateInfo.GetFullHtmlFieldName(String.Empty), ".Value")' id="@ViewData.TemplateInfo.GetFullHtmlFieldId(String.Empty)_Value" /></div>
+    <div>@Html.ValidationMessage("")</div>
+</p>

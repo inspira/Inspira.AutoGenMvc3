@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.CodeGenerator.Tests", "Inspira.CodeGenerator.Tests\Inspira.CodeGenerator.Tests.csproj", "{00D685A7-EFD4-4A06-962F-C9B645A65475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.CodeGenerator.TestModel", "Inspira.CodeGenerator.TestModel\Inspira.CodeGenerator.TestModel.csproj", "{5F403441-BF3D-4A3C-88A2-610D3347BB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.CodeGenerator.Mvc3Example", "Inspira.CodeGenerator.Mvc3Example\Inspira.CodeGenerator.Mvc3Example.csproj", "{87DF8558-8CB8-487D-81E9-D7CBAE851A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.CodeGenerator.Infrastructure", "Inspira.CodeGenerator.Infrastructure\Inspira.CodeGenerator.Infrastructure.csproj", "{4C04DB4A-BB51-4555-AFD4-F380D28763EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.CodeGenerator.Core", "Inspira.CodeGenerator.Core\Inspira.CodeGenerator.Core.csproj", "{CF5C273B-8257-434C-A23D-C92F333A3246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00D685A7-EFD4-4A06-962F-C9B645A65475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D685A7-EFD4-4A06-962F-C9B645A65475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D685A7-EFD4-4A06-962F-C9B645A65475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D685A7-EFD4-4A06-962F-C9B645A65475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F403441-BF3D-4A3C-88A2-610D3347BB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F403441-BF3D-4A3C-88A2-610D3347BB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F403441-BF3D-4A3C-88A2-610D3347BB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F403441-BF3D-4A3C-88A2-610D3347BB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DF8558-8CB8-487D-81E9-D7CBAE851A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DF8558-8CB8-487D-81E9-D7CBAE851A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DF8558-8CB8-487D-81E9-D7CBAE851A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DF8558-8CB8-487D-81E9-D7CBAE851A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C04DB4A-BB51-4555-AFD4-F380D28763EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C04DB4A-BB51-4555-AFD4-F380D28763EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C04DB4A-BB51-4555-AFD4-F380D28763EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C04DB4A-BB51-4555-AFD4-F380D28763EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5C273B-8257-434C-A23D-C92F333A3246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5C273B-8257-434C-A23D-C92F333A3246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5C273B-8257-434C-A23D-C92F333A3246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5C273B-8257-434C-A23D-C92F333A3246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

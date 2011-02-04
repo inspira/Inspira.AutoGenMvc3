@@ -1,0 +1,7 @@
+﻿@model System.Decimal
+
+<p>
+    <div>@Html.LabelFor(m => m)</div>
+    <div>@Html.TextBoxFor(m => m, new { @class="decimal" })</div>
+    <div>@Html.ValidationMessageFor(m => m)</div>
+</p>

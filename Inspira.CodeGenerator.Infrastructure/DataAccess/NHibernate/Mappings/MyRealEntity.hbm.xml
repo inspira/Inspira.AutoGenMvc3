@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Inspira.CodeGenerator.TestModel" assembly="Inspira.CodeGenerator.TestModel">
+    <class name="MyRealEntity">
+         <id name="ID" type="System.Int32" column="ID">
+            <generator class="identity" />
+        </id>
+        <property name="Sexo" />
+        <property name="Cep" type="Inspira.CodeGenerator.Core.NHibernate.TypeWithValue`1[Inspira.CodeGenerator.Core.CustomTypes.Cep], Inspira.CodeGenerator.Core" />
+        <property name="Cpf" type="Inspira.CodeGenerator.Core.NHibernate.TypeWithValue`1[Inspira.CodeGenerator.Core.CustomTypes.Cpf], Inspira.CodeGenerator.Core" />
+        <property name="Cnpj" type="Inspira.CodeGenerator.Core.NHibernate.TypeWithValue`1[Inspira.CodeGenerator.Core.CustomTypes.Cnpj], Inspira.CodeGenerator.Core" />
+        <property name="Telefone" type="Inspira.CodeGenerator.Core.NHibernate.TypeWithValue`1[Inspira.CodeGenerator.Core.CustomTypes.Telefone], Inspira.CodeGenerator.Core" />
+        <property name="Email" type="Inspira.CodeGenerator.Core.NHibernate.TypeWithValue`1[Inspira.CodeGenerator.Core.CustomTypes.EmailAddress], Inspira.CodeGenerator.Core" />
+        <property name="File1" type="Inspira.CodeGenerator.Core.NHibernate.TypeWithValue`1[Inspira.CodeGenerator.Core.CustomTypes.File], Inspira.CodeGenerator.Core" />
+        <property name="File2" type="Inspira.CodeGenerator.Core.NHibernate.TypeWithValue`1[Inspira.CodeGenerator.Core.CustomTypes.File], Inspira.CodeGenerator.Core" />
+    </class>
+</hibernate-mapping>
