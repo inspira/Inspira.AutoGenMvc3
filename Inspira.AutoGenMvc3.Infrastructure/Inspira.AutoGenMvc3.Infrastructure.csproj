@@ -8,8 +8,8 @@
     <ProjectGuid>{4C04DB4A-BB51-4555-AFD4-F380D28763EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Inspira.CodeGenerator.Infrastructure</RootNamespace>
-    <AssemblyName>Inspira.CodeGenerator.Infrastructure</AssemblyName>
+    <RootNamespace>Inspira.AutoGenMvc3.Infrastructure</RootNamespace>
+    <AssemblyName>Inspira.AutoGenMvc3.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

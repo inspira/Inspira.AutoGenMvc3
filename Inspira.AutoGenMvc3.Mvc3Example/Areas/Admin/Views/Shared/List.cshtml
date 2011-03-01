@@ -1,29 +1,24 @@
 ﻿@model IEnumerable<System.Object>
-
-@{
-    Layout = null;
-}
+@{ViewBag.Title = "Inspira Admin - List";}
 
 @{var propertyNames = Model.GetType().GetGenericArguments()[0].GetProperties().Select(p => p.Name).ToList();}
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>List</title>
-</head>
-<body>
+<div class="block">
+	<div class="hd">
+	    <h2>List</h2>
+	</div>
+	<div class="bd">
     @if (ViewBag.ShowDeleteMessage == true)
     {
-        <text>Registro apagado!</text>
+        <text><p class="alert notice">Row successfully deleted</p></text>
     }
     @if (ViewBag.ShowCreateMessage == true)
     {
-        <text>Registro inserido!</text>
+        <text><p class="alert notice">Row successfully inserted</p></text>
     }
     @if (ViewBag.ShowEditMessage == true)
     {
-        <text>Registro editado!</text>
+        <text><p class="alert notice">Row successfully edited</p></text>
     }
     <p>
         @Html.ActionLink("Create New", "Create")
@@ -54,6 +49,5 @@
             }
         </tbody>   
     </table>
-</body>
-</html>
-
+	</div>                        
+</div>

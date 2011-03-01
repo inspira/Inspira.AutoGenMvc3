@@ -10,7 +10,7 @@ namespace Inspira.AutoGenMvc3.Mvc3Example.Controllers
     {
         public ActionResult Index()
         {
-            return Content("<a href=Admin/>Admin</a>");
+            return View();
         }
 
     }

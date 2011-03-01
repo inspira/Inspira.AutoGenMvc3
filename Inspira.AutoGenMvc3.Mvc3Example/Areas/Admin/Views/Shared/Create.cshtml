@@ -1,24 +1,19 @@
 ﻿@model System.Object
+@{ViewBag.Title = "Inspira Admin - Create";}
 
-@{
-    Layout = null;
+<div class="block">
+	<div class="hd">
+	    <h2>Create</h2>
+	</div>
+	<div class="bd">
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    Html.RenderPartial("Form", Model);
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>Create</title>
-</head>
-<body>
-    @using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
-    {
-        Html.RenderPartial("Form", Model);
-    }
-    
-    <div>
-        @Html.ActionLink("Back to List", "Index")
     </div>
-</body>
-</html>
-
+</div>    
+<div>
+    @Html.ActionLink("Back to List", "List")
+</div>
