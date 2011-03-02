@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Reflection;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.SessionState;
-using Inspira.AutoGenMvc3.Mvc3Example.InversionOfControl;
-using System.Reflection;
 using Inspira.AutoGenMvc3.Infrastructure.DataAccess.NHibernate;
-using NHibernate;
-using Inspira.AutoGenMvc3.Core.CustomTypes;
+using Inspira.AutoGenMvc3.Mvc3Example.InversionOfControl;
 using Inspira.AutoGenMvc3.TestModel;
+using NHibernate;
 
 namespace Inspira.AutoGenMvc3.Mvc3Example
 {

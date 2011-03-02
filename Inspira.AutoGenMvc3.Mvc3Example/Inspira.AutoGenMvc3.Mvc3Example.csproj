@@ -149,10 +149,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inspira.AutoGenMvc3.Core\Inspira.AutoGenMvc3.Core.csproj">
-      <Project>{CF5C273B-8257-434C-A23D-C92F333A3246}</Project>
-      <Name>Inspira.CodeGenerator.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Inspira.AutoGenMvc3.Infrastructure\Inspira.AutoGenMvc3.Infrastructure.csproj">
       <Project>{4C04DB4A-BB51-4555-AFD4-F380D28763EE}</Project>
       <Name>Inspira.CodeGenerator.Infrastructure</Name>
@@ -227,7 +223,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>56634</DevelopmentServerPort>
+          <DevelopmentServerPort>60559</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

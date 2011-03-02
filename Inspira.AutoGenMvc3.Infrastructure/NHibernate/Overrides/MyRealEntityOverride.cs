@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FluentNHibernate.Automapping.Alterations;
+﻿using FluentNHibernate.Automapping.Alterations;
 using Inspira.AutoGenMvc3.TestModel;
-using Inspira.AutoGenMvc3.Core.CustomTypes;
+using Web.Generics.Core.CustomTypes;
+using Web.Generics.Core.NHibernate;
 
 namespace Inspira.AutoGenMvc3.Core.NHibernate.Overrides
 {

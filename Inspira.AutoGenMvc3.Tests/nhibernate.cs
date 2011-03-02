@@ -14,8 +14,8 @@ namespace CodeGeneratorTest
         [TestMethod]
         public void one_to_one_with_unique_key()
         {
-            SessionManager.DomainAssembly = typeof(OneToOneParent).Assembly;
-            SessionManager.ConfigurationPath = @"..\..\hibernate.cfg.xml";
+            //SessionManager.DomainAssembly = typeof(OneToOneParent).Assembly;
+            //SessionManager.ConfigurationPath = @"..\..\hibernate.cfg.xml";
 
             var session = SessionManager.GetNewSession();
             var parent = new OneToOneParent { Name = "parent" };
@@ -35,8 +35,8 @@ namespace CodeGeneratorTest
         [TestMethod]
         public void one_to_one_with_unique_key_load_only()
         {
-            SessionManager.DomainAssembly = typeof(OneToOneParent).Assembly;
-            SessionManager.ConfigurationPath = @"..\..\hibernate.cfg.xml";
+            //SessionManager.DomainAssembly = typeof(OneToOneParent).Assembly;
+            //SessionManager.ConfigurationPath = @"..\..\hibernate.cfg.xml";
 
             var session = SessionManager.GetNewSession();
 

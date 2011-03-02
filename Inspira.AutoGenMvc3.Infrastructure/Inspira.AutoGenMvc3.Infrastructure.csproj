@@ -52,29 +52,35 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.XML" />
+    <Reference Include="Web.Generics">
+      <HintPath>..\packages\Web.Generics.3.1.0\lib\Web.Generics.dll</HintPath>
+    </Reference>
+    <Reference Include="Web.Generics.Futures">
+      <HintPath>..\packages\Web.Generics.3.1.0\lib\Web.Generics.Futures.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NHibernate\Overrides\OneToOneChildOverride.cs" />
     <Compile Include="NHibernate\Overrides\OneToOneParentOverride.cs" />
     <Compile Include="NHibernate\Overrides\MyRealEntityOverride.cs" />
-    <Compile Include="NHibernate\SessionManager.cs" />
+    <Compile Include="NHibernate\SessionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="DataAccess\NHibernate\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Inspira.AutoGenMvc3.Core\Inspira.AutoGenMvc3.Core.csproj">
-      <Project>{CF5C273B-8257-434C-A23D-C92F333A3246}</Project>
-      <Name>Inspira.AutoGenMvc3.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Inspira.AutoGenMvc3.TestModel\Inspira.AutoGenMvc3.TestModel.csproj">
       <Project>{5F403441-BF3D-4A3C-88A2-610D3347BB00}</Project>
       <Name>Inspira.AutoGenMvc3.TestModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataAccess\NHibernate\Mappings\MyArtificialEntity.hbm.xml" />
+    <Content Include="DataAccess\NHibernate\Mappings\MyRealEntity.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

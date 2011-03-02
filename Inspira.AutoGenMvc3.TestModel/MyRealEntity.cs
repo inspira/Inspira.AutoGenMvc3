@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using Inspira.AutoGenMvc3.Core.CustomTypes;
 using System.ComponentModel.DataAnnotations;
+using Web.Generics.Core.CustomTypes;
 
 namespace Inspira.AutoGenMvc3.TestModel
 {

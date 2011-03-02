@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.AutoGenMvc3.Mvc3Exa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.AutoGenMvc3.Infrastructure", "Inspira.AutoGenMvc3.Infrastructure\Inspira.AutoGenMvc3.Infrastructure.csproj", "{4C04DB4A-BB51-4555-AFD4-F380D28763EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspira.AutoGenMvc3.Core", "Inspira.AutoGenMvc3.Core\Inspira.AutoGenMvc3.Core.csproj", "{CF5C273B-8257-434C-A23D-C92F333A3246}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +31,6 @@ Global
 		{4C04DB4A-BB51-4555-AFD4-F380D28763EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C04DB4A-BB51-4555-AFD4-F380D28763EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C04DB4A-BB51-4555-AFD4-F380D28763EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF5C273B-8257-434C-A23D-C92F333A3246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF5C273B-8257-434C-A23D-C92F333A3246}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF5C273B-8257-434C-A23D-C92F333A3246}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF5C273B-8257-434C-A23D-C92F333A3246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
